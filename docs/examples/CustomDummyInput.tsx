@@ -14,7 +14,9 @@ const DummyInput = (props: DummyInputProps<StateOption, false>) => {
         padding: '2px 6px',
       }}
     >
-      <span style={{ color: '#2684FF', fontSize: 11, fontWeight: 600 }}>Custom Dummy Input</span>
+      <span style={{ color: '#2684FF', fontSize: 11, fontWeight: 600 }}>
+        Custom Dummy Input
+      </span>
       <components.DummyInput {...props} />
     </div>
   );
@@ -28,4 +30,3 @@ export default () => (
     placeholder="Select an option"
   />
 );
-
